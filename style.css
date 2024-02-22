@@ -70,7 +70,7 @@ body{
    float : left;
    display : block;
    width : 50%;
-   height : 35px;
+   height : 40px;
    font-weight : 700;
    color       : white;
    text-align  : center;
@@ -156,7 +156,7 @@ a.info-box{
 /*=========== WEATHER ==========*/
 
 img.info-box-weather-icon{
-    height : 30px;
+    height : 40px;
     width  : 30px !important;
     margin : 10px;
     float  :left; 
