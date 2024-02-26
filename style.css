@@ -85,6 +85,7 @@ body{
     background: url('images/map-blur.png');
     background-repeat: repeat-y;
     background-size: cover;
+    min-height: 100%;
 }
 
 #content{
@@ -98,12 +99,13 @@ a.info-box{
     text-decoration : none;
     background      : rgba(255 ,225, 255, .8);
     width           : 90%;
-    height          : 100px;
+    height          : 90px;
     display         : block;
     margin          : auto;
     margin-top      : 12px;
     padding         : 1px; 
 }
+
 
 .info-box img{
     height : 70px;
