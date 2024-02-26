@@ -84,6 +84,7 @@ body{
     margin-top: 119px;
     background: url('images/map-blur.png');
     background-repeat: repeat-y;
+    background-size: cover;
 }
 
 #content{
@@ -97,7 +98,7 @@ a.info-box{
     text-decoration : none;
     background      : rgba(255 ,225, 255, .8);
     width           : 90%;
-    height          : 90px;
+    height          : 100px;
     display         : block;
     margin          : auto;
     margin-top      : 12px;
@@ -133,7 +134,7 @@ a.info-box{
 /*========= INFO BOX FULL ========*/
 
 #info-box-full{
-    background-color : rgba(255, 255, 255, .8);
+    background-color : rgba(255, 255, 255, .8) ;
     width   : 90%;
     display : block;
     margin  : auto;
@@ -157,7 +158,7 @@ a.info-box{
 
 img.info-box-weather-icon{
     height : 30px;
-    width  : 30px;
+    width  : 30px !important;
     margin : 10px;
     float  :left; 
 }
@@ -203,5 +204,5 @@ textarea{
     font-size: 16px;
     font-weight: 600;
     margin: 12px 0;
-    padding: 8px 0 8px 0;
+    padding: 8px 0;
 }
