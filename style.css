@@ -85,7 +85,6 @@ body{
     background: url('images/map-blur.png');
     background-repeat: repeat-y;
     background-size: cover;
-    min-height: 100%;
 }
 
 #content{
